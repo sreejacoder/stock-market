@@ -1,0 +1,30 @@
+# Virtual environment
+Include/
+Lib/
+Scripts/
+share/
+pyvenv.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables / secrets
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated ML models
+models/*.joblib
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
